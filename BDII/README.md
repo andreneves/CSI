@@ -1,7 +1,7 @@
 # BDII
 > Banco de dados II
 
-Novo teste em aula
+![Banner de Banco de Dados II](./imagens/bd2-banner.png)
 
 ## BDII00
 
