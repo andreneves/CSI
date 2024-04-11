@@ -1,0 +1,114 @@
+window.locales = {"revision":{"download":"Baixar","revert":"Reverter"},"common":{"or":"ou","cancel":"Cancelar","ok":"OK","got-it":"Got it"},"help":{"title":"Ajuda","contact":{"title":"Contatos","messenger":"Talk to us","github":"Relatar um problema","email":"Envie-nos um email"},"documents":"Documentos","yaml-meta":"Metadados YAML","slide":"Exemplo de Apresentação","cheatsheet":"Dicas","example":"Exemplo","syntax":{"h1":"Cabeçalho","ul":"Lista não ordenada","ol":"Lista ordenada","todo":"Lista de tarefas","blockquote":"Citação","b":"Fonte negrito","i":"Fonte itálico","strike":"Tachado","ins":"Texto inserido","mark":"Texto marcado","anchor":"Ligação","img":"Imagem","code":"Código","embeded":"Externos","alert":"Esta é uma área de alerta."}},"signin":{"via":"Entrar via {{text}}"},"refresh":{"title":"Esta página precisa ser recarregada","incompatible":{"title":"Você tem uma versão incompatível do cliente.","content":"Recarregar para atualizar."},"upgrade":{"title":"Nova versão disponível!","note":"Veja notas de lançamento aqui","content":"Atualize para usar as novas funções."},"auth":{"title":"O estado do seu usuário mudou.","content":"Atualize para carregar o novo estado do usuário."},"refresh":"Recarregar"},"clipboard":{"title":"Importar da área de transferência","content":"Cole seu markdown ou página web aqui...","clear":"Limpar","import":"Importar"},"locked":{"title":"Esta nota está bloqueada","content":"Desculpe, somente o dono pode editar esta nota."},"limit":{"title":"Alcançou o limite","content1":"Desculpe, você alcançou o tamanho máximo que esta nota pode ter.","content2":"Por favor reduza o conteúdo ou divida em mais de uma nota, obrigado!"},"gist-import":{"title":"Importar de um Gist","content":"Cole a URL de seu Gist aqui..."},"snippet-import":{"title":"Importar de Snippet","project":{"placeholder":"Selecionar de Projetos Disponíveis"},"snippet":{"placeholder":"Selecionar de Snippets Disponíveis"}},"snippet-export":{"title":"Exportar para Snippet","visibility":{"placeholder":"Selecionar Nível de Visibilidade"},"export":"Exportar"},"delete":{"title":"Tem certeza?","yes":"Sim, faça!"},"header":{"import":{"clipboard":"Área de transferência"},"download":{"raw-html":"HTML puro"},"modes":{"edit":"Editar","both":"Ambos","view":"Ver"},"help":"Help","menu":"Menu","intro":"Introdução"},"footer":{"tos":"Terms of Service","releases":"Lançamentos","terms":"Terms"},"site":{"meta":{"description":"A melhor forma de escrever e compartilhar seu conhecimento em Markdown.","og":{"title-suffix":"Notas em Markdown colaborativas"}}}};
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    if (jQuery && $.fn.select2) {
+        /**
+ * Select2 Brazilian Portuguese translation
+ */
+(function ($) {
+    "use strict";
+
+    $.fn.select2.locales['pt-BR'] = {
+        formatNoMatches: function () { return "Nenhum resultado encontrado"; },
+        formatAjaxError: function () { return "Erro na busca"; },
+        formatInputTooShort: function (input, min) { var n = min - input.length; return "Digite " + (min == 1 ? "" : "mais") + " " + n + " caracter" + (n == 1? "" : "es"); },
+        formatInputTooLong: function (input, max) { var n = input.length - max; return "Apague " + n + " caracter" + (n == 1? "" : "es"); },
+        formatSelectionTooBig: function (limit) { return "Só é possível selecionar " + limit + " elemento" + (limit == 1 ? "" : "s"); },
+        formatLoadMore: function (pageNumber) { return "Carregando mais resultados…"; },
+        formatSearching: function () { return "Buscando…"; }
+    };
+
+    $.extend($.fn.select2.defaults, $.fn.select2.locales['pt-BR']);
+})(jQuery);
+
+        // overwrite format functions of already inited select2 instances
+        var st2s = $('.select2-container').toArray();
+        for (var i = 0, l = st2s.length; i < l; i++) {
+            var st2 = st2s[i];
+            var data = $(st2).data('select2');
+            if (!data || !data.opts) continue;
+            var opts = data.opts;
+            opts.formatNoMatches = $.fn.select2.defaults.formatNoMatches;
+            opts.formatInputTooShort = $.fn.select2.defaults.formatInputTooShort;
+            opts.formatInputTooLong = $.fn.select2.defaults.formatInputTooLong;
+            opts.formatSelectionTooBig = $.fn.select2.defaults.formatSelectionTooBig;
+            opts.formatLoadMore = $.fn.select2.defaults.formatLoadMore;
+            opts.formatSearching = $.fn.select2.defaults.formatSearching;
+        }
+    }
+});
+
+
+
+window._moment = { moment: {} };
+window._moment.moment.defineLocale = function (lang, locale) {
+    window._moment.lang = lang;
+    window._moment.locale = locale;
+};
+;(function () {
+    //! moment.js locale configuration
+//! locale : Portuguese (Brazil) [pt-br]
+//! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
+
+;(function (global, factory) {
+   typeof exports === 'object' && typeof module !== 'undefined'
+       && typeof require === 'function' ? factory(require('../moment')) :
+   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
+   factory(global.moment)
+}(this, (function (moment) { 'use strict';
+
+
+var ptBr = moment.defineLocale('pt-br', {
+    months : 'janeiro_fevereiro_março_abril_maio_junho_julho_agosto_setembro_outubro_novembro_dezembro'.split('_'),
+    monthsShort : 'jan_fev_mar_abr_mai_jun_jul_ago_set_out_nov_dez'.split('_'),
+    weekdays : 'Domingo_Segunda-feira_Terça-feira_Quarta-feira_Quinta-feira_Sexta-feira_Sábado'.split('_'),
+    weekdaysShort : 'Dom_Seg_Ter_Qua_Qui_Sex_Sáb'.split('_'),
+    weekdaysMin : 'Do_2ª_3ª_4ª_5ª_6ª_Sá'.split('_'),
+    weekdaysParseExact : true,
+    longDateFormat : {
+        LT : 'HH:mm',
+        LTS : 'HH:mm:ss',
+        L : 'DD/MM/YYYY',
+        LL : 'D [de] MMMM [de] YYYY',
+        LLL : 'D [de] MMMM [de] YYYY [às] HH:mm',
+        LLLL : 'dddd, D [de] MMMM [de] YYYY [às] HH:mm'
+    },
+    calendar : {
+        sameDay: '[Hoje às] LT',
+        nextDay: '[Amanhã às] LT',
+        nextWeek: 'dddd [às] LT',
+        lastDay: '[Ontem às] LT',
+        lastWeek: function () {
+            return (this.day() === 0 || this.day() === 6) ?
+                '[Último] dddd [às] LT' : // Saturday + Sunday
+                '[Última] dddd [às] LT'; // Monday - Friday
+        },
+        sameElse: 'L'
+    },
+    relativeTime : {
+        future : 'em %s',
+        past : '%s atrás',
+        s : 'poucos segundos',
+        ss : '%d segundos',
+        m : 'um minuto',
+        mm : '%d minutos',
+        h : 'uma hora',
+        hh : '%d horas',
+        d : 'um dia',
+        dd : '%d dias',
+        M : 'um mês',
+        MM : '%d meses',
+        y : 'um ano',
+        yy : '%d anos'
+    },
+    dayOfMonthOrdinalParse: /\d{1,2}º/,
+    ordinal : '%dº'
+});
+
+return ptBr;
+
+})));
+
+}.bind(window._moment))();
+

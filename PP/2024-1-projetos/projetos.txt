@@ -1,0 +1,25 @@
+-- Construir em sala de aula
+Plataforma de Blogging
+
+-- Construídos pelos alunos
+Sistema de Gestão de Inventário
+Sistema de Reservas para Hotéis ou Pousadas
+Sistema de Enquetes
+Galeria de Fotos
+Sistema de Gerenciamento de Biblioteca
+---
+
+Sistema de Gestão de Inventário
+Desenvolva uma aplicação web para gerenciar o inventário de uma pequena empresa ou loja. O sistema deve permitir adicionar, editar e excluir produtos, categorias, e fornecedores. Além disso, deve haver funcionalidades para registrar entradas e saídas de produtos, gerar relatórios de estoque, e monitorar os níveis de estoque para evitar escassez ou excesso de produtos.
+
+Sistema de Reservas para Hotéis ou Pousadas
+Desenvolva uma aplicação web para gerenciamento de reservas em hotéis ou pousadas. O sistema deve permitir que os administradores gerenciem informações dos quartos, tarifas, e disponibilidades. Os clientes devem poder buscar disponibilidades, fazer reservas online e possivelmente pagar antecipadamente. Integrar um sistema de feedback onde os hóspedes possam deixar avaliações sobre sua estadia pode enriquecer o projeto.
+
+Sistema de Enquetes
+Crie um aplicativo onde os usuários podem criar enquetes com múltiplas opções de resposta. Outros usuários podem votar nessas enquetes e ver os resultados em tempo real. Este projeto pode ser expandido para incluir funcionalidades como limitação de um voto por usuário por enquete e a geração de gráficos para visualizar os resultados.
+
+Galeria de Fotos
+Desenvolva um sistema simples de galeria de fotos onde os usuários podem fazer upload, visualizar e excluir imagens. Implemente funcionalidades para organizar as fotos em álbuns e adicionar descrições ou tags às fotos. Este projeto pode ser expandido para incluir funcionalidades de compartilhamento de fotos ou controle de acesso baseado em usuários.
+
+Sistema de Gerenciamento de Biblioteca
+Desenvolva uma aplicação web para gerenciar um catálogo de livros em uma biblioteca. Os usuários podem pesquisar livros por título, autor ou categoria, verificar a disponibilidade de exemplares, fazer reservas e renovar empréstimos. Os administradores podem adicionar novos livros, gerenciar usuários e visualizar relatórios de empréstimos.

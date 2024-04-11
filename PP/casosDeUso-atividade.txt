@@ -1,0 +1,38 @@
+Prezados Alunos,
+
+No desenvolvimento de software, a etapa de análise de requisitos desempenha um papel fundamental. Para garantir que um sistema atenda às necessidades dos usuários e funcione conforme o esperado, é essencial começar com uma compreensão clara do que o sistema deve fazer. Nesse sentido, vamos trabalhar na criação de casos de uso com base em minimundos, uma técnica valiosa que irá ajudá-los a definir os requisitos funcionais dos seus projetos.
+
+O que é um Minimundo?
+Um minimundo é uma representação simplificada do ambiente ou contexto no qual o sistema será implantado. Ele descreve os principais atores, objetos e interações que serão suportados pelo sistema. O minimundo é a base para identificar as funcionalidades que o sistema precisa oferecer.
+
+Tarefa: Criar Casos de Uso a partir do Minimundo
+Seu projeto servirá como o ponto de partida para a criação dos casos de uso.
+
+Siga estas etapas:
+
+Identifique os Atores: Quais são os principais atores (usuários, sistemas externos, etc.) que interagirão com o seu sistema? Liste todos os atores relevantes.
+
+Identifique os Casos de Uso: Com base nas interações entre atores e objetos no minimundo, identifique os casos de uso que o sistema deve suportar. Um caso de uso descreve uma funcionalidade específica que o sistema oferece.
+
+Para os casos de uso mais complexos do sistema, crie uma descrição detalhada que inclua:
+
+Nome do caso de uso.
+Ator principal.
+Descrição.
+Pré-condições.
+Fluxo principal.
+Fluxos alternativos (se aplicável).
+Pós-condições.
+
+Lembre-se de que a qualidade das suas descrições de casos de uso é essencial para uma análise de requisitos eficaz e, por consequência, para o sucesso do seu projeto de software.
+
+Até a data de entrega especificada, você deve ter suas descrições de casos de uso prontas para submissão. Elas serão a base para o desenvolvimento subsequente do projeto.
+
+Não hesite em entrar em contato comigo se tiver dúvidas ou precisar de orientações adicionais durante a criação dos casos de uso. Estou aqui para auxiliá-los a garantir que seus projetos estejam bem fundamentados em requisitos sólidos.
+
+Desejo a todos um trabalho produtivo na criação de seus casos de uso!
+
+Atenciosamente,
+
+
+Professor André Neves
