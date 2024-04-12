@@ -1,0 +1,35 @@
+Galeria de Fotos
+
+Nome do Projeto: [???]
+
+Descrição: O projeto Galeria de Fotos é uma plataforma que permite aos usuários armazenar, organizar e compartilhar suas imagens de maneira fácil e intuitiva. É ideal para fotógrafos amadores, entusiastas de fotografia e qualquer pessoa que deseje manter suas memórias digitais de forma organizada e acessível.
+
+Recursos e Funcionalidades:
+
+Registro de Usuários: Os usuários podem se registrar na plataforma com um nome de usuário, email e senha.
+
+Upload de Fotos: Após o registro, os usuários podem fazer upload de suas fotos, que serão armazenadas na plataforma. Cada foto pode ter um título e uma descrição.
+
+Criação de Álbuns: Os usuários podem criar álbuns para organizar suas fotos. Cada álbum pode ter um nome e uma descrição, e o usuário pode adicionar múltiplas fotos a um álbum.
+
+Edição de Fotos: A plataforma oferece opções básicas de edição de fotos, como adicionar descrição e tags, permitindo uma melhor organização e busca.
+
+Tags para Fotos: Os usuários podem adicionar tags às fotos para facilitar a busca e organização. Uma foto pode ter várias tags associadas a ela.
+
+Exclusão de Fotos e Álbuns: Os usuários podem excluir qualquer foto ou álbum que tenham criado.
+
+Visualização de Fotos: Os usuários podem visualizar suas fotos individualmente ou dentro de álbuns. As fotos podem ser filtradas por tags ou álbuns.
+
+Compartilhamento e Privacidade: Inicialmente, todas as fotos são privadas, mas os usuários podem optar por compartilhar álbuns ou fotos específicas com outros usuários ou através de links.
+
+Perfil do Usuário: Cada usuário possui um perfil na plataforma que mostra suas fotos e álbuns criados.
+
+Benefícios:
+
+Organização Eficiente: Ajuda os usuários a manter suas fotos digitais bem organizadas em álbuns e com tags.
+
+Fácil Acesso e Compartilhamento: Facilita o compartilhamento de memórias com amigos e familiares, além de manter tudo acessível de qualquer lugar.
+
+Plataforma Criativa: Permite aos usuários expressarem sua criatividade através da organização e descrição de suas coleções de fotos.
+
+Interatividade e Engajamento: Incentiva os usuários a interagirem com as fotos de outros através de comentários e compartilhamentos, aumentando o engajamento na plataforma.
