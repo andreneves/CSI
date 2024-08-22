@@ -1,0 +1,30 @@
+-- Construir em sala de aula
+Plataforma de Blogging
+
+-- Construídos pelos alunos
+Plataforma de Compartilhamento de Receitas
+Plataforma de Avaliação de Produtos Eletrônicos
+Plataforma de Compartilhamento de Projetos DIY (Faça Você Mesmo)
+Plataforma de Compartilhamento de Experiências de Viagem
+Plataforma de Classificados de Produtos Locais
+
+---
+
+Plataforma de Blogging:
+Crie uma plataforma onde os usuários possam criar blogs pessoais, escrever postagens, adicionar mídia e interagir com outros blogueiros por meio de comentários e compartilhamento de conteúdo.
+
+Plataforma de Compartilhamento de Receitas:
+Desenvolva um site onde os usuários possam compartilhar suas receitas favoritas, adicionar fotos e instruções passo a passo. Outros usuários podem classificar e comentar as receitas.
+
+Plataforma de Avaliação de Produtos Eletrônicos:
+Crie um sistema para avaliar e comentar sobre produtos eletrônicos, como smartphones, laptops, fones de ouvido, etc. Isso pode ajudar os consumidores a fazer escolhas informadas antes de comprar um produto.
+
+Plataforma de Compartilhamento de Projetos DIY (Faça Você Mesmo):
+Desenvolva um sistema onde os usuários possam compartilhar seus projetos de faça você mesmo, incluindo instruções detalhadas, fotos do processo e os resultados finais. Outros usuários podem comentar, fazer perguntas e compartilhar suas próprias versões dos projetos.
+
+Plataforma de Compartilhamento de Experiências de Viagem:
+Crie um sistema onde os viajantes possam compartilhar histórias, fotos e dicas de suas viagens. Os usuários podem explorar itinerários detalhados e descobrir destinos interessantes.
+
+Plataforma de Classificados de Produtos Locais:
+Crie um site onde os usuários possam comprar e vender produtos usados localmente, incluindo itens como móveis, eletrônicos e roupas.
+
