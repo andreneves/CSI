@@ -23,38 +23,28 @@ https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pa
 https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
 
 
-<p dir="ltr">TOOLS - Apresentação</p>
-<p dir="ltr">&nbsp;<video controls="true">
-        <source src="https://youtu.be/VYx-unY0Plo">https://youtu.be/VYx-unY0Plo
-    </video>&nbsp;<br></p>
-<p dir="ltr"><span style="font-size: 1rem;"><br></span></p>
-<p dir="ltr"><span style="font-size: 1rem;">WORKBENCH</span><br></p>
-<p dir="ltr">&nbsp;<video controls="true">
-        <source src="https://youtu.be/0VwFT2R2lIY">https://youtu.be/0VwFT2R2lIY
-    </video>&nbsp;<br></p>
-<p dir="ltr"><br></p>
-<p dir="ltr">COMPOSER</p>
-<p dir="ltr">&nbsp;<video controls="true">
-        <source src="https://youtu.be/XWEQPsRQ7hM">https://youtu.be/XWEQPsRQ7hM
-    </video>&nbsp;<br></p>
-<p dir="ltr"><br></p>
-<p dir="ltr">VSCODE</p>
-<p dir="ltr">&nbsp;<video controls="true">
-        <source src="https://youtu.be/nVvcn2sAuFo">https://youtu.be/nVvcn2sAuFo
-    </video>&nbsp;<br></p>
-<p dir="ltr"><br></p>
-<p dir="ltr">GIT</p>
-<p dir="ltr">&nbsp;<video controls="true">
-        <source src="https://youtu.be/wfyeeXaiQ7o">https://youtu.be/wfyeeXaiQ7o
-    </video>&nbsp;<br></p>
-<p dir="ltr"><br></p>
-<p dir="ltr">GITHUB DESKTOP</p>
-<p dir="ltr">&nbsp;<video controls="true">
-        <source src="https://youtu.be/3qNtRBFubhE">https://youtu.be/3qNtRBFubhE
-    </video>&nbsp;<br></p>
-<p dir="ltr"><br></p>
-<p dir="ltr">AulaGitHub</p>
-<p dir="ltr">&nbsp;<video controls="true">
-        <source src="https://youtu.be/2Ju1ug6uOew">https://youtu.be/2Ju1ug6uOew
-    </video>&nbsp;<br></p>
-<p dir="ltr"><br></p>
+# Vídeos
+
+## TOOLS - Apresentação
+https://youtu.be/VYx-unY0Plo
+
+WORKBENCH
+https://youtu.be/0VwFT2R2lIY
+
+COMPOSER
+https://youtu.be/XWEQPsRQ7hM
+
+VSCODE
+https://youtu.be/nVvcn2sAuFo
+
+GIT
+https://youtu.be/wfyeeXaiQ7o
+
+GITHUB DESKTOP
+https://youtu.be/3qNtRBFubhE
+
+AulaGitHub
+https://youtu.be/2Ju1ug6uOew
+
+<video src="[path/to/video.mp4](https://youtu.be/2Ju1ug6uOew)" width="320" height="240" controls></video>
+
