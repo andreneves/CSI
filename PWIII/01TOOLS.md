@@ -159,3 +159,10 @@ https://youtu.be/2Ju1ug6uOew
 ## Bitfumes - AI & LLMs
 ### Canal que aborda tutoriais em diversas tecnologias.
 ### youtube.com/@Bitfumes
+
+
+## Meu Vídeo Favorito
+
+Este é um vídeo incrível que eu encontrei:
+
+<iframe width="560" height="315" src="https://youtu.be/2Ju1ug6uOew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
