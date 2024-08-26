@@ -48,5 +48,4 @@ https://youtu.be/2Ju1ug6uOew
 
 
 TTT
-<video src="[https://youtu.be/2Ju1ug6uOew](https://youtu.be/2Ju1ug6uOew)" width="320" height="240" controls></video>
-
+[AulaGitHub]([https://youtu.be/2Ju1ug6uOew)
