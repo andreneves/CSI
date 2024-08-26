@@ -1,25 +1,25 @@
+# Programas necessários
+
 ## Programas necessários
+### Xampp (https://www.apachefriends.org/pt_br/index.html)
+### GIT (https://git-scm.com/)
+### Composer (https://getcomposer.org/)
+### GITHUB DESKTOP ( https://github.com/apps/desktop/ )
+### Node (https://nodejs.org/pt)
+### Notepad++ (https://notepad-plus-plus.org/downloads/)
+### VS CODE ( https://code.visualstudio.com/download )
 
-### Programas necessários
-Xampp (https://www.apachefriends.org/pt_br/index.html)
-GIT (https://git-scm.com/)
-Composer (https://getcomposer.org/)
-GITHUB DESKTOP ( https://github.com/apps/desktop/ )
-Node (https://nodejs.org/pt)
-Notepad++ (https://notepad-plus-plus.org/downloads/)
-VS CODE ( https://code.visualstudio.com/download )
-
-### Extensões VS CODE:
-Laravel Extension Pack
+## Extensões VS CODE:
+### Laravel Extension Pack
 https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack
 
-Material Icon Theme
+### Material Icon Theme
 https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 
-Language Pack pt-BR
+### Language Pack pt-BR
 https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-pt-BR
 
-GitHub Copilot
+### GitHub Copilot
 https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
 
 
